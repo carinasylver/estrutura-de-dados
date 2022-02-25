@@ -35,7 +35,7 @@ int main(void)
     printf("\ninforme a data de hoje:(dia:mes:ano)\n");
     scanf("%d %d %d", &data_atual.dia, &data_atual.mes, &data_atual.ano);
 
-    /*A seguir ler uma quantidade indeterminada de dados de alunos (Aluno).*/
+    /*A seguir ler uma quantidade indeterminada de dados de alunos(Aluno).*/
     data_hj = &data_atual;
     do
     {
