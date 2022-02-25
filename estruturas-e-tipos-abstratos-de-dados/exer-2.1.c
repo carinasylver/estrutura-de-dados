@@ -27,7 +27,7 @@ int main(void)
 
     hr1 = relogio(&hr[0]);
     hr2 = relogio(&hr[1]);
-    // No caso de igualdade escrever a mensagem "Horários	iguais".*/
+    // No caso de igualdade escrever a mensagem "Horários iguais".*/
     if (hr1 == hr2)
     {
         printf("Horarios iguais");
