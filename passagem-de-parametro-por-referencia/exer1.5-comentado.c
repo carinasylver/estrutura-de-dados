@@ -1,10 +1,11 @@
 #include <stdio.h>
 /*1.5 Escreva uma função em C chamada duplaCrescente que classifique 2	valores	inteiros passados como argumento em	ordem crescente.
-Entrada:	Dois números inteiros
+Entrada: dois números inteiros
 Saída:	Os dois inteiros em	ordem crescente.
 Retorno: Nenhum
 Escreva	um programa em C para ler uma quantidade indeterminada de duplas de	inteiros. 
-Escrever cada dupla em ordem crescente. Os valores em ordem crescente devem ser obtidos	 através da chamada à função duplaCrescente. O programa termina quando os dois valores informados forem iguais (nesta situação os valores não devem ser impressos).
+Escrever cada dupla em ordem crescente. Os valores em ordem crescente devem ser obtidos	 através da chamada à função duplaCrescente. 
+O programa termina quando os dois valores informados forem iguais (nesta situação os valores não devem ser impressos).
 [Entrada] [Saída]
 1 2         1 2
 4 3         3 4
