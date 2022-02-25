@@ -164,7 +164,7 @@ int obtemNumero(Cheque cheque)
 /*
 compensaCheque
 Entrada/Saı́da: um cheque
-Retorno: Código 0(sucesso),1(erro)
+Retorno: Código 0(sucesso), 1(erro)
 Descrição: Altera a situação do cheque para 2 (compensado)
 O cheque só pode ser compensado se	a situação for igual a 1(emitido)*/
 int compensaCheque(Cheque *cheque)
@@ -183,7 +183,7 @@ int compensaCheque(Cheque *cheque)
 Entrada/Saı́da:	um cheque
 Entrada:	Valor do cheque
 Retorno:	Código 0(sucesso),	1(erro)
-Descrição:	Atribui um valor ao cheque e altera a situação para o código1(Emitido).O cheque só 	pode ser emitido se a situação for igual a 0 (em branco)*/
+Descrição:	Atribui um valor ao cheque e altera a situação para o código1(Emitido).O cheque só pode ser emitido se a situação for igual a 0 (em branco)*/
 int emiteCheque(Cheque *cheque, float valor)
 {
     if (cheque->situacao == 0)
