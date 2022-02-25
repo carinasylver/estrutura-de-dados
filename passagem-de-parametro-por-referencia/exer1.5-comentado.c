@@ -26,7 +26,7 @@ em	 ordem	 crescente.*/
     {
         printf("\ninforme dois numeros:\n");
         scanf("%d %d", &a, &b);
-        // O programa termina quando os	 dois valores informados forem iguais (nesta situaçã o	 os valores	não	devem	ser	impressos).
+        // O programa termina quando os	 dois valores informados forem iguais (nesta situação	 os valores	não	devem	ser	impressos).
         //se for diferentes a e b entra no if, do contrario encerra o programa
         if (a != b)
         {

@@ -20,7 +20,7 @@ int main(void)
     alturaM = altura[0];
     alturaF = altura[0];
     ////////////////////////////////////////////////////////////
-    // contador das alturasF para calcular a media
+    // inicializo o contador das alturasF para calcular a media
     int cont = 0;
 
     // A seguir ler Q pares de dados contendo, cada um, a altura e um código para masculino	(1)	e outro	para feminino (2) de cada aluno.
@@ -48,7 +48,7 @@ int main(void)
             scanf("%f", &altura[i]);
 
             alturaF += altura[i]; // ou alturaF = alturaF + altura[i]
-            cont++;
+            cont++;//conta a qtd alturas
         }
 
     } // o loop acaba quando a qtd de alunos(Q) for finalizada

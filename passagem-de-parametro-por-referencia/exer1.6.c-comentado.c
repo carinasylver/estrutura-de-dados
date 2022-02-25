@@ -46,8 +46,7 @@ int main(void)
 
     return 0;
 }
-/*Escreva uma função chamada duplaClassificada que	classifique	 2	valores	inteiros conforme o	código
-passado	como argumento	(0-ordem	crescente	1-ordem	decrescente).*/
+//Entrada:	Dois valores inteiros.
 int duplaClassificada(int *a, int *b)
 {
     int aux;
@@ -69,6 +68,8 @@ int duplaClassificada(int *a, int *b)
             aux = *b;
             *b = *a;
             *a = aux;
+            //Saída:	Os	2 valores de entrada na	ordem desejada
+            //Return:	Nenhum
         }
     }
 }
