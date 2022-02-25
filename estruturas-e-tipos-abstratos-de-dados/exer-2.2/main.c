@@ -14,7 +14,7 @@ int main(void)
     data_hj = &data_atual;
     do
     {
-        printf("\ninforme seus dados: matricula(11 caracteres):");
+        printf("\ninforme seus dados: matricula(11 caracteres): ");
         scanf("%d", &aluno.num_matricula);
         if (aluno.num_matricula < 0)
         {
