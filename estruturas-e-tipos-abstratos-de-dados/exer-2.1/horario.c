@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "horario.h"
 
-/*Escreva	o menor	horário no formato	HH:MM:SS.No	caso de igualdade escrever a mensagem "Horários	iguais".*/
+/*Escreva	o menor	horário no formato	HH:MM:SS.No	caso de igualdade escrever a mensagem "Horários iguais".*/
 
 int relogio(Horario *phms)
 {
