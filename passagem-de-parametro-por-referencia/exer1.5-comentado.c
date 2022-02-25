@@ -29,7 +29,7 @@ Escrever cada dupla em  ordem crescente.*/
         //se for diferentes a e b entra no if, do contrario encerra o programa
         if (a != b)
         {
-            //Os valores em	 ordem crescente devem ser obtidos através da chamada à	 função duplaCrescente.
+            //Os valores em	ordem crescente devem ser obtidos através da chamada à	 função duplaCrescente.
             duplaCrescente(&a, &b);
             printf("ordem crescente: %d %d", a, b);
         }

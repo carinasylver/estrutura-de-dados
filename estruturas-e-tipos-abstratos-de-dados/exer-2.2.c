@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
-Definir um tipo chamado	ALUNO para	armazenar os seguintes dados de	um aluno: número de matrı́cula	e data de nascimento (tipo Data).
-Escrever um	programa em	C para ler a data de hoje armazenando-a	em uma variável do	tipo Data.A seguir ler uma quantidade indeterminada de dados de alunos(Aluno). Para cada aluno lido escrever se ele já completou 18anos até a	data informada.	O programa termina ao ser informado	um valor negativo para a matrı́cula.Nesta situação	a data de nascimento não deve ser lida
+Definir um tipo chamado ALUNO para armazenar os seguintes dados de um aluno: número de matrı́cula e data de nascimento (tipo Data).
+Escrever um programa em C para ler a data de hoje armazenando-a em uma variável do tipo Data.A seguir ler uma quantidade indeterminada de dados de alunos(Aluno). Para cada aluno lido escrever se ele já completou 18anos até a data informada. O programa termina ao ser informado um valor negativo para a matrı́cula.Nesta situação	a data de nascimento não deve ser lida
 */
 
 // estruturas
@@ -39,7 +39,7 @@ int main(void)
     data_hj = &data_atual;
     do
     {
-        // O programa termina ao ser informado	um valor	negativo para a	matrı́cula.	Nesta situação	a data de nascimento não deve ser lida
+        // O programa termina ao ser informado um valor negativo para a matrı́cula. Nesta situação a data de nascimento não deve ser lida
         printf("\ninforme seus dados: matricula(11 caracteres):");
         scanf("%d", &aluno.num_matricula);
         if (aluno.num_matricula < 0)

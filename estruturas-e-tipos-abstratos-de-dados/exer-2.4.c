@@ -4,29 +4,29 @@ Defina o tipo Cheque para armazenar o número, o valor e a situação (0-Em br
 *criaCheque
 Saı́da: um cheque
 Entrada: Número do cheque
-Descrição:	Atribui os valores iniciais.O valor e a situaçã o do cheque deve ser zeradas.
+Descrição:	Atribui os valores iniciais.O valor e a situação do cheque deve ser zeradas.
 *exibeCheque
-Entrada: Um	cheque
+Entrada: Um cheque
 Descrição: Exibe um uma única linha as 3 informações contidasno cheque
 *obtemSituacao
 Entrada: um cheque
-Retorno: O código da situação	do cheque
+Retorno: O código da situação do cheque
 *obtemValor
-Entrada: um	cheque
-Retorno: O valor do	cheque
+Entrada: um cheque
+Retorno: O valor do cheque
 *obtemNumero
-Entrada: um	cheque
+Entrada: um cheque
 Retorno: O número do cheque
 *compensaCheque
 Entrada/Saı́da:	um cheque
 Retorno: Código 0(sucesso),1(erro)
 Descrição:	Altera a situação do cheque para 2 (compensado).	
-O cheque só pode ser compensado se	a situação for igual a 1(emitido)*
+O cheque só pode ser compensado se a situação for igual a 1(emitido)*
 *emiteCheque
 Entrada/Saı́da:	um cheque
 Entrada:	Valor do cheque
 Retorno:	Código 0(sucesso), 1(erro)
-Descrição:	Atribui um valor ao cheque e altera a situação para o código1(Emitido).O cheque só 	pode ser emitido se	a situação for igual a 0 (em branco)
+Descrição:	Atribui um valor ao cheque e altera a situação para o código1(Emitido).O cheque só 	pode ser emitido se a situação for igual a 0 (em branco)
 *Escreva um programa para ler dois números e criar dois cheques armazenando-os em 2 variáveis(usar criaCheque)
 *Ler 2valores e emitir os 2 cheques(usar emiteCheque).
 *Escrever na tela os dados dos 2cheques(usar exibeCheque)
@@ -56,11 +56,11 @@ int main(void)
     int num;
     float valor, valor2;
 
-    /*Escreva um  programa para	ler	dois números e criar dois cheques armazenando-os em 2 variáveis(usar criaCheque)*/
+    /*Escreva um programa para ler dois números e criar dois cheques armazenando-os em 2 variáveis(usar criaCheque)*/
     printf("digite o numero do 1o cheque: ");
     scanf("%d", &num);
 
-    criaCheque(num, &cheq1); // chama funcao cricheque
+    criaCheque(num, &cheq1); // chama funcao criacheque
 
     printf("digite o numero do 2o cheque: ");
     scanf("%d", &num);
