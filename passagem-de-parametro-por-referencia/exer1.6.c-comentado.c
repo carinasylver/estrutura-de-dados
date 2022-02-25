@@ -68,7 +68,7 @@ int duplaClassificada(int *a, int *b)
             aux = *b;
             *b = *a;
             *a = aux;
-            //Saída:	Os	2 valores de entrada na	ordem desejada
+            //Saída:	Os 2 valores de entrada na ordem desejada
             //Return:	Nenhum
         }
     }
