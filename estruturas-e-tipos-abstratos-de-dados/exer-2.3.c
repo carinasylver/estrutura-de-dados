@@ -43,7 +43,7 @@ int main(void)
     while (opcao != 5)
     {
         printf("\nescolha uma opcao:\n");
-        printf(" 1-deposito conta corrente\n 2-deposito conta poupanca\n 3-retirada conta corrente\n 4-retirada conta poupanca\n 5-Fim\n\n");
+        printf(" 1-deposito conta corrente\n 2-deposito conta poupanca\n 3-retirada conta corrente\n 4-retirada conta poupanca\n 5-fim\n\n");
         scanf("%d", &opcao);
 
         switch (opcao)
@@ -106,7 +106,7 @@ int main(void)
 }
 // Entrada: Número da conta
 // Saida: Uma conta
-// Descrição: Atribui os valores iniciais. O saldo deve	ser zerado
+// Descrição: Atribui os valores iniciais. O saldo deve ser zerado
 void criaConta(Conta *conta, int num)
 {
     conta->num_conta = num;
