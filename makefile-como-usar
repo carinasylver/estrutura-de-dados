@@ -1,7 +1,7 @@
 * ir ate o diretório que quer executar o programa
 
 * executar no console do linux
-make ./prog  -> compila o programa
+make prog  -> compila o programa
 ./prog -> executa o programa
 
 make clean-> limpa a pasta excluindo ex: o main.o e, horario.o e prog 
