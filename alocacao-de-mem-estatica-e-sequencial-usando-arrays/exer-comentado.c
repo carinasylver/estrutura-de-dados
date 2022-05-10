@@ -188,7 +188,7 @@ int main(void)
             pesqCod = excluiNodo(&lista, consultaCod);
             if (pesqCod == LISTA_VAZIA)
             {
-                puts("\nERRO: a lista esta VAZIA");
+                puts("\nERRO: a lista esta VAZIA!");
             }
             else if (pesqCod == CODIGO_INEXISTENTE)
             {
