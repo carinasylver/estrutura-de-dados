@@ -10,4 +10,5 @@ Exercícios desenvolvidos na cadeira de Estrutura de Dados - 2º semestre
 
 * LISTA ENCADEADA - INSERÇÃO NO INICIO
 
-![LE-inserir-inicio](https://user-images.githubusercontent.com/62727932/168450694-825c31d2-9ede-40b8-b61d-8578dca9c0f5.gif)
+
+![LE-inserir-inicio](https://user-images.githubusercontent.com/62727932/168450984-9737c4ed-0868-4f8d-a8b1-4983a053a889.gif)
