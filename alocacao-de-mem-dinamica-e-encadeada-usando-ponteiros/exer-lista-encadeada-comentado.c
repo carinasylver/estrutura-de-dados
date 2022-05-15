@@ -477,7 +477,7 @@ int excluiNodo(ListaSE *lista, Dados *dados, int cod)
         lista->inicio = nNodo->prox;  // ou lista->inicio = lista->inicio->prox;
     }
     else
-    {                             // exclusao de outra posicao qualquer
+    { // exclusao de outra posicao qualquer
         *dados = aux->prox->info; // preservo a informacao q sera excluida para retornar p main os dados excluidos//aux->prox aponta para a info do novo ultimo nodo
         aux->prox = nNodo->prox;
     }
