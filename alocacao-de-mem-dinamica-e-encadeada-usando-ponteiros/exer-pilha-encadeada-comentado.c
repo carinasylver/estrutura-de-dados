@@ -53,6 +53,7 @@ int main(void)
 
         printf("\ninforme a operacao: ");
         scanf("%d", &opcao);
+         system("clear");
 
         switch (opcao)
         {
