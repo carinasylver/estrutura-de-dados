@@ -17,3 +17,8 @@ Exercícios desenvolvidos na cadeira de Estrutura de Dados - 2º semestre
 
 
 ![LE-excluir-inicio](https://user-images.githubusercontent.com/62727932/168488516-2583055e-1b6b-493d-b6aa-5f01dcb004e0.gif)
+
+* LISTA ENCADEADA - INSERIR DEPOIS DO INICIO, NO MEIO OU FIM
+
+
+![LE-inserir-depois-no-meio-ou-fim](https://user-images.githubusercontent.com/62727932/168495357-3b8600e3-df5e-4f82-93c3-34184a390542.gif)
