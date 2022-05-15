@@ -237,7 +237,7 @@ Entrada: um dado do tipo Dado
 Retorno: Código de erro: SUCESSO ou FALTOU_MEMORIA
 Descrição: Inclui o dado na primeira posição da lista
 */
-int incluiNoInicio(ListaSE *lista, Dados dados) // revisado
+int incluiNoInicio(ListaSE *lista, Dados dados) 
 {
     Nodo *nNodo = (Nodo *)malloc(sizeof(Nodo));
 
