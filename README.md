@@ -8,24 +8,17 @@ Exercícios desenvolvidos na cadeira de Estrutura de Dados - 2º semestre
 
 <h2>Entendendo Estruturas de Dados de forma visual</h2>
 
-* LISTA ENCADEADA - INSERÇÃO NO INICIO
+* INSERÇÃO(LISTA-CABEÇA | FILA-INICIO | PILHA-TOPO)
 
 
-![LE-inserir-inicio](https://user-images.githubusercontent.com/62727932/168450984-9737c4ed-0868-4f8d-a8b1-4983a053a889.gif)
-
-* LISTA DUPLAMENTE ENCADEADA - INSERÇÃO NO INICIO
+![inserir-inicio](https://user-images.githubusercontent.com/62727932/169670740-7743fd90-15e8-4280-a740-97b602c67235.gif)
 
 
-![2022-05-16-17-10-35](https://user-images.githubusercontent.com/62727932/168674976-96c3c213-4ba7-4d75-99ac-8b5e68c85518.gif)
-
-* LISTA ENCADEADA - REMOÇÃO DO INICIO
+* INSERÇÃO(LISTA-CAUDA | FILA-FIM | PILHA-FIM)
 
 
-![LE-excluir-inicio](https://user-images.githubusercontent.com/62727932/168488516-2583055e-1b6b-493d-b6aa-5f01dcb004e0.gif)
-
-* LISTA ENCADEADA - INSERÇÃO DEPOIS DO INICIO, NO MEIO OU FIM
+![inserir-fim](https://user-images.githubusercontent.com/62727932/169671295-f350e6ce-a9e0-42bb-997b-d887457eb5bf.gif)
 
 
-![LE-inserir-depois-no-meio-ou-fim](https://user-images.githubusercontent.com/62727932/168495357-3b8600e3-df5e-4f82-93c3-34184a390542.gif)
 
 
