@@ -8,14 +8,14 @@
 
 typedef struct no Nodo;
 
-// DEFINE OS DADOS DA LISTA ENCADEADA
+//DEFINE OS DADOS DA LISTA ENCADEADA
 typedef struct _dados
 {
     int cod;
     float peso;
 } Dados;
 
-// DEFINE OS NODOS DA LISTA ENCADEADA
+//DEFINE OS NODOS DA LISTA ENCADEADA
 typedef struct no
 {
     Dados info; /*informacao armazenada*/
@@ -247,9 +247,9 @@ int incluiNoInicio(ListaSE *lista, Dados dados)
     }
     else
     {
-        nNodo->info = dados;         // novo->info recebe o dado que eu recebi por parametro
-        nNodo->prox = lista->inicio; // lista->inicio aponta para o nNodo a ser inserido eo campo prox para null se nao existir mais nodo depois. do contrario o prox aponta p o ex-1º nodo da lista
-        lista->inicio = nNodo;       // o inicio da lista aponta sempre p o novo nodo que inseri refazendo o encadeamento
+        nNodo->info = dados;// novo->info recebe o dado que eu recebi por parametro
+        nNodo->prox = lista->inicio; //lista->inicio aponta para o nNodo a ser inserido eo campo prox para null se nao existir mais nodo depois. do contrario o prox aponta p o ex-1º nodo da lista
+        lista->inicio = nNodo;// o inicio da lista aponta sempre p o novo nodo que inseri refazendo o encadeamento
         return SUCESSO;
     }
 }
@@ -284,7 +284,6 @@ Retorno: A quantidade de nodos existente na lista.
 */
 int quantidadeDeNodos(ListaSE lista)
 {
-
     Nodo *pAux = lista.inicio;
     int cont = 0;
 
@@ -322,16 +321,16 @@ Exclui o nodo armazenado na primeira posição da lista.
 int excluiDoInicio(ListaSE *lista, Dados *dados)
 {
     Nodo *nNodo;
-
-    if (estaVazia(lista)) // lista->inicio == NULL
+    
+    if (estaVazia(lista))// lista->inicio == NULL
     {
         return LISTA_VAZIA;
     }
-    else // ha nodo na lista para excluir
+    else //ha nodo na lista para excluir
     {
         *dados = lista->inicio->info;
         nNodo = lista->inicio;
-        lista->inicio = lista->inicio->prox; // lista.inicio aponta para o prox elem
+        lista->inicio = lista->inicio->prox; //lista.inicio aponta para o prox elem
         // lista->inicio = nNodo->prox //é o mesmo que lista->inicio = lista->inicio->prox
         free(nNodo);
         return SUCESSO;
@@ -349,25 +348,25 @@ int incluiNoFim(ListaSE *lista, Dados dados)
 {
     Nodo *nNodo = (Nodo *)malloc(sizeof(Nodo));
 
-    if (nNodo == NULL) // erro ao tentar alocar espaco na mem para o nodo
+    if (nNodo == NULL) //erro ao tentar alocar espaco na mem para o nodo
     {
         return FALTOU_MEMORIA;
     }
-    nNodo->info = dados;  // dados que eu irei  inserir
-    nNodo->prox = NULL;   // como irei inserir no final da lista o prox elemento sera null
-    if (estaVazia(lista)) // lista->inicio == NULL caso a lista estiver vazia inserir no inicio
+    nNodo->info = dados;  //dados que eu irei  inserir
+    nNodo->prox = NULL;   //como irei inserir no final da lista o prox elemento sera null
+    if (estaVazia(lista)) //lista->inicio == NULL caso a lista estiver vazia inserir no inicio
     {
-        lista->inicio = nNodo; // o inicio da lista eh o novo nodo
+        lista->inicio = nNodo; //o inicio da lista eh o novo nodo
         return SUCESSO;
     }
     else // se nao for uma lista vazia tenho q percorrer ate achar o ultimo nodo da lista
     {
-        Nodo *aux = lista->inicio; // o ponteiro aux vale o inicio da lista
-        while (aux->prox != NULL)  // sempre percorro a lista com o aux e nunca com a cabeça da lista(lista->inicio). enquanto o prox elemento for !=null o aux vai receber o nodo seguinte a ele
+        Nodo *aux = lista->inicio; //o ponteiro aux vale o inicio da lista
+        while (aux->prox != NULL)  //sempre percorro a lista com o aux e nunca com a cabeça da lista(lista->inicio). enquanto o prox elemento for !=null o aux vai receber o nodo seguinte a ele
         {
             aux = aux->prox;
         }
-        aux->prox = nNodo; // cheguei no final em null, insiro o novo nodo
+        aux->prox = nNodo; //cheguei no final em null, insiro o novo nodo
         return SUCESSO;
     }
 }
@@ -384,24 +383,24 @@ int excluiDoFim(ListaSE *lista, Dados *dados)
 
     nNodo = lista->inicio;
 
-    if (estaVazia(lista)) // lista->inicio == NULL
+    if (estaVazia(lista)) //lista->inicio == NULL
     {
         return LISTA_VAZIA;
     }
     while (nNodo->prox != NULL)
     {
-        antNodo = nNodo;     // o nodo ant aponta para nNodo
-        nNodo = nNodo->prox; // nNodo recebe o elem seguinte a ele
+        antNodo = nNodo;     //o nodo ant aponta para nNodo
+        nNodo = nNodo->prox; //nNodo recebe o elem seguinte a ele
     }
-    if (nNodo == lista->inicio) // eh o inicio da lista? exclui o ultimo e unico nodo
+    if (nNodo == lista->inicio) //eh o inicio da lista? exclui o ultimo e unico nodo
     {
-        *dados = lista->inicio->info; // lista->inicio->info aponta para a info do unico nodo
-        lista->inicio = nNodo->prox;  // lista->inicio recebe nNodo->prox q passara a apontar para null, tornando o nodo unico
+        *dados = lista->inicio->info; //lista->inicio->info aponta para a info do unico nodo
+        lista->inicio = nNodo->prox;  //lista->inicio recebe nNodo->prox q passara a apontar para null, tornando o nodo unico
     }
     else
     {
-        *dados = antNodo->prox->info; // antNodo->prox aponta para a info do novo ultimo nodo
-        antNodo->prox = nNodo->prox;  // antNodo aponta para nNodo e seu prox que passa a ser o ultimo nodo passa a apontar para null
+        *dados = antNodo->prox->info; //antNodo->prox aponta para a info do novo ultimo nodo
+        antNodo->prox = nNodo->prox;  //antNodo aponta para nNodo e seu prox que passa a ser o ultimo nodo passa a apontar para null
     }
     free(nNodo);
     return SUCESSO;
@@ -417,7 +416,7 @@ FALTOU_MEMORIA.
 Descrição: Inclui o dado antes do nodo que possui
 o código passado como argumento.
 */
-int incluiDepois(ListaSE *lista, Dados dados, int cod) // revisado
+int incluiDepois(ListaSE *lista, Dados dados, int cod) 
 {
     Nodo *pNodo, *pAux;
     pNodo = (Nodo *)malloc(sizeof(Nodo));
@@ -442,7 +441,7 @@ int incluiDepois(ListaSE *lista, Dados dados, int cod) // revisado
     pNodo->info = dados;
     pNodo->prox = pAux->prox;
     // insere entre dois nodos ou fim
-    pAux->prox = pNodo; // o campo prox do nodo q p aux esta apontando aponta para o nono nodo nNodo
+    pAux->prox = pNodo; //o campo prox do nodo q p aux esta apontando aponta para o nono nodo nNodo
     return SUCESSO;
 }
 /*
@@ -458,7 +457,7 @@ int excluiNodo(ListaSE *lista, Dados *dados, int cod)
 {
     Nodo *nNodo, *aux;
     nNodo = lista->inicio;
-    if (estaVazia(lista)) // lista->inicio == NULL
+    if (estaVazia(lista)) //lista->inicio == NULL
     {
         return LISTA_VAZIA;
     }
@@ -471,10 +470,10 @@ int excluiNodo(ListaSE *lista, Dados *dados, int cod)
     {
         return CODIGO_INEXISTENTE;
     }
-    if (nNodo == lista->inicio) // exclusao do 1 nodo do inicio da lista
+    if (nNodo == lista->inicio) //exclusao do 1 nodo do inicio da lista
     {
-        *dados = lista->inicio->info; // preservo a informacao q sera excluida para retornar p main os dados excluidos
-        lista->inicio = nNodo->prox;  // ou lista->inicio = lista->inicio->prox;
+        *dados = lista->inicio->info; //preservo a informacao q sera excluida para retornar p main os dados excluidos
+        lista->inicio = nNodo->prox;  //ou lista->inicio = lista->inicio->prox;
     }
     else
     { // exclusao de outra posicao qualquer
