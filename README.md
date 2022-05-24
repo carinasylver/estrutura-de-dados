@@ -1,31 +1,41 @@
 # estrutura-de-dados
-Exercícios desenvolvidos na cadeira de Estrutura de Dados - 2º semestre
+Exercícios desenvolvidos na cadeira de Estrutura de Dados - 2º semestre - IFSUL
 
 <p>01 - Passagem de parâmetro por valor e referência para função</p>
 <p>02 - Estruturas e Tipos Abstratos</p>
-<p>03 - Estruturas Estáticas - Arrays</p>
-<p>04 - Estruturas Dinâmicas - Ponteiros</p>
+<p>03 - Estruturas Estáticas - Lista encadeada - com arrays</p>
+<p>04 - Estruturas Dinâmicas - Lista duplamente encadeada, fila e pilha - com ponteiros</p>
 
-<h2>Entendendo Estruturas de Dados de forma visual</h2>
+<h3>ENTENDENDO ESTRUTURAS DE DADOS DE FORMA VISUAL</h3>
 
-* LISTA ENCADEADA - INSERÇÃO NO INICIO
-
-
-![LE-inserir-inicio](https://user-images.githubusercontent.com/62727932/168450984-9737c4ed-0868-4f8d-a8b1-4983a053a889.gif)
-
-* LISTA DUPLAMENTE ENCADEADA - INSERÇÃO NO INICIO
+* INSERÇÃO NO INICIO
 
 
-![2022-05-16-17-10-35](https://user-images.githubusercontent.com/62727932/168674976-96c3c213-4ba7-4d75-99ac-8b5e68c85518.gif)
+![inserir-inicio](https://user-images.githubusercontent.com/62727932/169670740-7743fd90-15e8-4280-a740-97b602c67235.gif)
 
-* LISTA ENCADEADA - REMOÇÃO DO INICIO
-
-
-![LE-excluir-inicio](https://user-images.githubusercontent.com/62727932/168488516-2583055e-1b6b-493d-b6aa-5f01dcb004e0.gif)
-
-* LISTA ENCADEADA - INSERÇÃO DEPOIS DO INICIO, NO MEIO OU FIM
+* REMOÇÃO DO INICIO
 
 
-![LE-inserir-depois-no-meio-ou-fim](https://user-images.githubusercontent.com/62727932/168495357-3b8600e3-df5e-4f82-93c3-34184a390542.gif)
+![remover-inicio](https://user-images.githubusercontent.com/62727932/169671679-5fd87423-d613-4ab5-9805-93cd3c0c823c.gif)
+
+* INSERÇÃO NO MEIO
 
 
+![inserir-meio](https://user-images.githubusercontent.com/62727932/169672346-99bff1b5-df6d-4d39-9313-e45fe83241e7.gif)
+
+
+* REMOÇÃO DO MEIO
+
+![remover-meio](https://user-images.githubusercontent.com/62727932/169863660-5fe98d2d-f639-4591-b6a3-80cd80817f42.gif)
+
+
+* INSERÇÃO NO FIM
+
+
+![inserir-fim](https://user-images.githubusercontent.com/62727932/169671295-f350e6ce-a9e0-42bb-997b-d887457eb5bf.gif)
+
+
+* REMOÇÃO DO FIM
+
+
+![remover-fim](https://user-images.githubusercontent.com/62727932/169671982-2842b4b2-2b9e-4c13-a406-5de0fc9f4453.gif)
