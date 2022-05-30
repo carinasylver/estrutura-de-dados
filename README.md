@@ -1,4 +1,4 @@
-# estrutura-de-dados
+# Estruturas de Dados
 Exercícios desenvolvidos na cadeira de Estrutura de Dados - 2º semestre - IFSUL
 
 <p>01 - Passagem de parâmetro por valor e referência para função</p>
