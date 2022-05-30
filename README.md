@@ -6,9 +6,10 @@ Exercícios desenvolvidos na cadeira de Estrutura de Dados - 2º semestre - IFSU
 <p>03 - Estruturas Estáticas - Lista encadeada - com arrays</p>
 <p>04 - Estruturas Dinâmicas - Lista duplamente encadeada, fila e pilha - com ponteiros</p>
 
-<h3>ENTENDENDO ESTRUTURAS DE DADOS DE FORMA VISUAL</h3> clique no play -> 
+<h3>ENTENDENDO ESTRUTURAS DE DADOS DE FORMA VISUAL</h3> 
 
 
+<p>obs: clique no play a direita!</p>
 
 
 * INSERÇÃO NO INICIO
