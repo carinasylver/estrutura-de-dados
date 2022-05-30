@@ -9,7 +9,7 @@ Exercícios desenvolvidos na cadeira de Estrutura de Dados - 2º semestre - IFSU
 <h3>ENTENDENDO ESTRUTURAS DE DADOS DE FORMA VISUAL</h3> 
 
 
-<p>Obs: Clique no play de cada tópico para visualizar a animação</p>
+<p>Obs: Clique no botão play de cada tópico para visualizar a animação</p>
 
 ![botao-play](https://user-images.githubusercontent.com/62727932/171060378-966bb200-5fe4-4862-bfc1-732e3b017c4f.png)
 
